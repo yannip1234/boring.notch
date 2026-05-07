@@ -483,6 +483,7 @@ struct ContentView: View {
                                     && Defaults[.sneakPeekStyles] == .inline)
                                     ? 1 : 0
                             )
+                            .padding(.leading, 5)
                             Spacer(minLength: vm.closedNotchSize.width)
                             // Song Artist
                             Text(musicManager.artistName)
